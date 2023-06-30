@@ -9,6 +9,11 @@ class Heic2jpg < Formula
   depends_on "python@3.11"
 
   def install
-    bin.install "heic2jpg.py" => heic2jpg
+    system "pip3", "install", "-r", "requirements.txt"
+    bin.install "heic2jpg.py" => "heic2jpg"
+  end
+
+  test do
+    system "#{bin}/heic2jpg", "--version"
   end
 end
