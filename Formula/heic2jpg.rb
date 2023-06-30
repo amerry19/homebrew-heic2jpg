@@ -11,6 +11,7 @@ class Heic2jpg < Formula
   def install
     system "pip3", "install", "-r", "requirements.txt"
     bin.install "heic2jpg.py" => "heic2jpg"
+    chmod 0755, bin/"heic2jpg" # Ensure executable permission
   end
 
   test do
