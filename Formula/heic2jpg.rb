@@ -1,8 +1,8 @@
 class Heic2jpg < Formula
   desc "Automatically converts HEIC files to JPG"
   homepage "https://github.com/amerry19/heic2jpg"
-  url "https://github.com/amerry19/heic2jpg/archive/refs/tags/v0.1.1-beta.tar.gz"
-  sha256 "ed3b5fda3f3dccb4870339c52191589715c724fe8291cd78ecd1e069f1957ba1"
+  url "https://github.com/amerry19/heic2jpg/archive/refs/tags/v0.1.2-beta.tar.gz"
+  sha256 "59c123a5e8fe95343f0707d0606ec3a4869fe9b63e81eea2042639c8ba6bd6d9"
   license "MIT"
 
   depends_on "imagemagick"
